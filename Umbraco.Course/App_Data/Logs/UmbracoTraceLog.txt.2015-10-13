@@ -1,0 +1,36 @@
+﻿ 2015-10-13 23:19:13,812 [P740/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.0 application starting on MARC-BOOK-PRO
+ 2015-10-13 23:19:13,914 [P740/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2015-10-13 23:19:13,927 [P740/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 11ms)
+ 2015-10-13 23:19:14,058 [P740/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2015-10-13 23:19:14,379 [P740/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 321ms)
+ 2015-10-13 23:19:14,394 [P740/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2015-10-13 23:19:14,401 [P740/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 7ms)
+ 2015-10-13 23:19:14,402 [P740/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2015-10-13 23:19:14,412 [P740/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 10ms)
+ 2015-10-13 23:19:14,431 [P740/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2015-10-13 23:19:14,438 [P740/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 7ms)
+ 2015-10-13 23:19:14,438 [P740/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2015-10-13 23:19:14,445 [P740/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 7ms)
+ 2015-10-13 23:19:14,512 [P740/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2015-10-13 23:19:14,523 [P740/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 11ms)
+ 2015-10-13 23:19:14,524 [P740/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2015-10-13 23:19:14,534 [P740/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 10ms)
+ 2015-10-13 23:19:15,561 [P740/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-10-13 23:19:15,886 [P740/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-10-13 23:19:15,912 [P740/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-10-13 23:19:15,944 [P740/D2/T1] WARN  Umbraco.Core.Sync.DatabaseServerMessenger - No last synced Id found, this generally means this is a new server/install. The server will rebuild its caches and indexes and then adjust it's last synced id to the latest found in the database and will start maintaining cache updates based on that id
+ 2015-10-13 23:19:15,979 [P740/D2/T1] INFO  umbraco.content - Load Xml from file...
+ 2015-10-13 23:19:16,021 [P740/D2/T1] INFO  umbraco.content - Loaded Xml from file.
+ 2015-10-13 23:19:16,033 [P740/D2/T1] INFO  umbraco.content - Loading content from database...
+ 2015-10-13 23:19:17,437 [P740/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2015-10-13 23:19:17,457 [P740/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 20ms)
+ 2015-10-13 23:19:17,912 [P740/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2015-10-13 23:19:17,934 [P740/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2015-10-13 23:19:17,936 [P740/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2015-10-13 23:19:17,969 [P740/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 4333ms)
+ 2015-10-13 23:19:19,404 [P740/D2/T7] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:5555/umbraco (UmbracoModule request)
+ 2015-10-13 23:19:19,785 [P740/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2015-10-13 23:19:19,793 [P740/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 8ms)
+ 2015-10-13 23:19:21,156 [P740/D2/T8] INFO  umbraco.content - Save Xml to file...
+ 2015-10-13 23:19:21,206 [P740/D2/T15] INFO  umbraco.content - Saved Xml to file.
+ 2015-10-13 23:19:25,250 [P740/D2/T20] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.

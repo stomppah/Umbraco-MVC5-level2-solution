@@ -1,0 +1,13 @@
+﻿@using Umbraco.Course.Models
+@inherits UmbracoTemplatePage
+@{
+    Layout = "Layout.cshtml";
+}
+<div class="jumbotron" id="statusForm">
+    @{ Html.RenderPartial("StatusUpdatePartial", new StatusUpdateModel()); }
+</div>
+
+<div>
+    <!-- This would be a great place to put the ListStatus Updates Macro -->
+	@Umbraco.RenderMacro("ListStatusUpdates", new {numberOfItems="5"})
+</div>
