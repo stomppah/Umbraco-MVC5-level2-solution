@@ -8,3 +8,7 @@
 </div>
 
 <!-- Render login partial here -->
+@{Html.RenderPartial(
+      "~/Views/Partials/LoginPartial.cshtml",
+      new LoginModel()
+      );}

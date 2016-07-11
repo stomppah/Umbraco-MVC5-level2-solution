@@ -11,11 +11,17 @@ namespace Umbraco.Course.Controllers
             if (!ModelState.IsValid)
                 return CurrentUmbracoPage();
 
+            if (Members.Login(model.Username, model.Password))
+                return Redirect("/stream");
+
+            ModelState.AddModelError("", "Invalid Login");
+
             return CurrentUmbracoPage();
         }
 
         public ActionResult Logout()
         {
+            Members.Logout();
             return Redirect("/");
         }
     }
