@@ -8,3 +8,7 @@
 </div>
 
 <!-- Render Registration form here -->
+@{Html.RenderPartial(
+      "~/Views/Partials/RegisterPartial.cshtml", 
+      new Umbraco.Course.Models.RegisterModel()
+      );}

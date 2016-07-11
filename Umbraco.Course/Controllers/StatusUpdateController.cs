@@ -44,6 +44,11 @@ namespace Umbraco.Course.Controllers
             // Set post properties
             content.SetValue("bodyText", model.BodyText);
 
+            if (Members.IsLoggedIn())
+            {
+                content.SetValue("memberId", Members.GetCurrentMemberId());
+            }
+
             // Publish
             contentService.PublishWithStatus(content);
             
