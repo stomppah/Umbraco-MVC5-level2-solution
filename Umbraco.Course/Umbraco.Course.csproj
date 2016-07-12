@@ -341,6 +341,7 @@
   <ItemGroup>
     <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\LatestPostsDashboardController.cs" />
+    <Compile Include="Controllers\LikesController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\RegisterController.cs" />
     <Compile Include="Controllers\SearchController.cs" />
@@ -469,6 +470,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="media\" />
+    <Folder Include="Views\Likes\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="config\ClientDependency.config" />

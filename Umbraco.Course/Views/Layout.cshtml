@@ -2,11 +2,13 @@
 @inherits UmbracoTemplatePage
 @{
     Layout = null;
-    
+
     Html.RequiresJs("~/scripts/jquery-1.11.0.min.js");
+    Html.RequiresJs("~/scripts/jquery.validate.min.js");
+    Html.RequiresJs("~/scripts/jquery.validate.unobtrusive.min.js");
     Html.RequiresJs("~/scripts/bootstrap.min.js");
     Html.RequiresJs("~/scripts/level2.js");
-        
+
     Html.RequiresCss("~/css/bootstrap.min.css");
     Html.RequiresCss("~/css/bootstrap-theme.min.css");
     Html.RequiresCss("~/css/level2.css");
@@ -40,9 +42,9 @@
                 <a class="navbar-brand" href="/">@(Model.Content.GetPropertyValue<string>("SiteName", true))</a>
             </div>
             <div class="navbar-collapse collapse">
-                
-                @Html.CachedPartial("TopNavigationPartial", Model, 5, true) 
-            
+
+                @Html.CachedPartial("TopNavigationPartial", Model, 5, true)
+
                 <div class="col-xs-12 col-sm-4 col-md-4 navbar-right">
                     <form class="navbar-form" role="search" method="POST" action="/search">
                         <div class="input-group">
@@ -68,11 +70,7 @@
             @Html.CachedPartial("WatercoolerGalleryPartial",Model,0,true)
         </div>
     </div>
-      
-    @Html.RenderJsHere()
 
-    @*<script src="~/scripts/jquery-1.11.0.min.js"></script>*@
-    <script src="~/scripts/jquery.validate.min.js"></script>
-    <script src="~/scripts/jquery.validate.unobtrusive.min.js"></script>
+    @Html.RenderJsHere()
 </body>
 </html>
