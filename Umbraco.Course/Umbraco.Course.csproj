@@ -346,6 +346,7 @@
     <Compile Include="Controllers\RegisterController.cs" />
     <Compile Include="Controllers\SearchController.cs" />
     <Compile Include="Controllers\StatusUpdateController.cs" />
+    <Compile Include="Controllers\StreamController.cs" />
     <Compile Include="Level2\Events\Level2ApplicationEventHandler.cs" />
     <Compile Include="Level2\Helper.cs" />
     <Compile Include="Models\ContactModel.cs" />
@@ -354,6 +355,7 @@
     <Compile Include="Models\DummyModel.cs" />
     <Compile Include="Models\SearchModel.cs" />
     <Compile Include="Models\StatusUpdateModel.cs" />
+    <Compile Include="Models\StreamModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -466,11 +468,14 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="Views\Web.config" />
+    <Content Include="Views\Partials\ListStatusUpdates.cshtml" />
+    <Content Include="Views\Partials\StatusUpdatePagingPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="media\" />
     <Folder Include="Views\Likes\" />
+    <Folder Include="Views\Stream\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="config\ClientDependency.config" />
