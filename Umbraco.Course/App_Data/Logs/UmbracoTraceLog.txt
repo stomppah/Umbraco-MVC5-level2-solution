@@ -1,98 +1,109 @@
-﻿ 2016-07-12 15:18:52,061 [P21576/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.0 application starting on ESWD658
- 2016-07-12 15:18:52,083 [P21576/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
- 2016-07-12 15:18:52,089 [P21576/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 5ms)
- 2016-07-12 15:18:52,165 [P21576/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
- 2016-07-12 15:18:52,172 [P21576/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 6ms)
- 2016-07-12 15:18:52,188 [P21576/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
- 2016-07-12 15:18:52,189 [P21576/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
- 2016-07-12 15:18:52,189 [P21576/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
- 2016-07-12 15:18:52,190 [P21576/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 0ms)
- 2016-07-12 15:18:52,200 [P21576/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
- 2016-07-12 15:18:52,201 [P21576/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 0ms)
- 2016-07-12 15:18:52,201 [P21576/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
- 2016-07-12 15:18:52,204 [P21576/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 2ms)
- 2016-07-12 15:18:52,230 [P21576/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
- 2016-07-12 15:18:52,231 [P21576/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
- 2016-07-12 15:18:52,231 [P21576/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
- 2016-07-12 15:18:52,232 [P21576/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
- 2016-07-12 15:18:52,655 [P21576/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
- 2016-07-12 15:18:52,813 [P21576/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
- 2016-07-12 15:18:52,838 [P21576/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
- 2016-07-12 15:18:52,873 [P21576/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
- 2016-07-12 15:18:52,883 [P21576/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
- 2016-07-12 15:18:52,940 [P21576/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
- 2016-07-12 15:18:52,949 [P21576/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 935ms)
- 2016-07-12 15:18:53,406 [P21576/D2/T7] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:5555/umbraco (UmbracoModule request)
- 2016-07-12 15:18:53,529 [P21576/D2/T7] INFO  umbraco.content - Load Xml from file...
- 2016-07-12 15:18:53,533 [P21576/D2/T7] INFO  umbraco.content - Loaded Xml from file.
- 2016-07-12 15:18:53,687 [P21576/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
- 2016-07-12 15:18:53,687 [P21576/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 0ms)
- 2016-07-12 15:18:54,159 [P21576/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
- 2016-07-12 15:18:54,160 [P21576/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
- 2016-07-12 15:18:54,625 [P21576/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
- 2016-07-12 15:18:54,625 [P21576/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
- 2016-07-12 15:18:54,640 [P21576/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
- 2016-07-12 15:18:54,641 [P21576/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 0ms)
- 2016-07-12 15:18:56,682 [P21576/D2/T7] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
- 2016-07-12 15:19:20,982 [P21576/D2/T7] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
- 2016-07-12 15:19:27,853 [P21576/D2/T17] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt failed for username admin from IP address ::1, the user does not exist
- 2016-07-12 15:19:27,855 [P21576/D2/T17] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
- 2016-07-12 15:19:27,868 [P21576/D2/T17] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 12ms)
- 2016-07-12 15:19:31,547 [P21576/D2/T14] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
- 2016-07-12 15:19:42,611 [P21576/D2/T13] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
- 2016-07-12 15:19:55,753 [P21576/D2/T12] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-07-11 15:19:55
- 2016-07-12 15:20:51,391 [P21576/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
- 2016-07-12 15:20:51,414 [P21576/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 23ms)
- 2016-07-12 15:20:51,514 [P21576/D2/T7] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username me@someaddress.com from IP address ::1
- 2016-07-12 15:30:31,905 [P21576/D2/T55] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
- 2016-07-12 15:30:31,905 [P21576/D2/T55] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
- 2016-07-12 15:30:31,906 [P21576/D2/T21] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
- 2016-07-12 15:30:31,918 [P21576/D2/T55] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
- 2016-07-12 15:30:31,918 [P21576/D2/T55] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
- 2016-07-12 15:30:31,918 [P21576/D2/T55] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
- 2016-07-12 15:30:31,918 [P21576/D2/T55] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
- 2016-07-12 15:30:31,918 [P21576/D2/T55] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
- 2016-07-12 15:30:31,918 [P21576/D2/T55] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
- 2016-07-12 15:30:31,918 [P21576/D2/T22] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
- 2016-07-12 15:30:31,918 [P21576/D2/T48] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
- 2016-07-12 15:30:31,918 [P21576/D2/T49] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
- 2016-07-12 15:30:35,915 [P21576/D3/T61] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.0 application starting on ESWD658
- 2016-07-12 15:30:35,934 [P21576/D3/T61] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
- 2016-07-12 15:30:35,939 [P21576/D3/T61] INFO  Umbraco.Core.PluginManager - Hash determined (took 4ms)
- 2016-07-12 15:30:36,008 [P21576/D3/T61] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
- 2016-07-12 15:30:36,172 [P21576/D3/T61] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 163ms)
- 2016-07-12 15:30:36,180 [P21576/D3/T61] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
- 2016-07-12 15:30:36,187 [P21576/D3/T61] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 6ms)
- 2016-07-12 15:30:36,187 [P21576/D3/T61] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
- 2016-07-12 15:30:36,194 [P21576/D3/T61] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 6ms)
- 2016-07-12 15:30:36,202 [P21576/D3/T61] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
- 2016-07-12 15:30:36,209 [P21576/D3/T61] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 7ms)
- 2016-07-12 15:30:36,210 [P21576/D3/T61] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
- 2016-07-12 15:30:36,217 [P21576/D3/T61] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 7ms)
- 2016-07-12 15:30:36,235 [P21576/D3/T61] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
- 2016-07-12 15:30:36,241 [P21576/D3/T61] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 5ms)
- 2016-07-12 15:30:36,241 [P21576/D3/T61] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
- 2016-07-12 15:30:36,247 [P21576/D3/T61] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 5ms)
- 2016-07-12 15:30:36,578 [P21576/D3/T61] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
- 2016-07-12 15:30:36,672 [P21576/D3/T61] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
- 2016-07-12 15:30:36,674 [P21576/D3/T61] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
- 2016-07-12 15:30:36,681 [P21576/D3/T61] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
- 2016-07-12 15:30:36,690 [P21576/D3/T61] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
- 2016-07-12 15:30:36,722 [P21576/D3/T61] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
- 2016-07-12 15:30:36,727 [P21576/D3/T61] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 852ms)
- 2016-07-12 15:30:36,988 [P21576/D3/T21] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:5555/umbraco (UmbracoModule request)
- 2016-07-12 15:30:37,068 [P21576/D3/T21] INFO  umbraco.content - Load Xml from file...
- 2016-07-12 15:30:37,069 [P21576/D3/T21] INFO  umbraco.content - Loaded Xml from file.
- 2016-07-12 15:30:37,135 [P21576/D3/T21] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
- 2016-07-12 15:30:37,142 [P21576/D3/T21] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 7ms)
- 2016-07-12 15:30:37,472 [P21576/D3/T21] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
- 2016-07-12 15:30:37,485 [P21576/D3/T21] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 13ms)
- 2016-07-12 15:30:38,623 [P21576/D3/T21] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
- 2016-07-12 15:30:38,623 [P21576/D3/T21] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
- 2016-07-12 15:30:38,640 [P21576/D3/T21] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
- 2016-07-12 15:30:38,647 [P21576/D3/T21] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 6ms)
- 2016-07-12 15:30:41,503 [P21576/D3/T50] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
- 2016-07-12 15:31:02,019 [P21576/D2/T50] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+﻿ 2016-07-13 09:56:47,727 [P19336/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.0 application starting on ESWD658
+ 2016-07-13 09:56:47,757 [P19336/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-07-13 09:56:47,762 [P19336/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 5ms)
+ 2016-07-13 09:56:47,838 [P19336/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-07-13 09:56:48,014 [P19336/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 176ms)
+ 2016-07-13 09:56:48,024 [P19336/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-07-13 09:56:48,029 [P19336/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 5ms)
+ 2016-07-13 09:56:48,030 [P19336/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-07-13 09:56:48,036 [P19336/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 5ms)
+ 2016-07-13 09:56:48,046 [P19336/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-07-13 09:56:48,052 [P19336/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 6ms)
+ 2016-07-13 09:56:48,052 [P19336/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-07-13 09:56:48,059 [P19336/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 6ms)
+ 2016-07-13 09:56:48,083 [P19336/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-07-13 09:56:48,089 [P19336/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 6ms)
+ 2016-07-13 09:56:48,090 [P19336/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-07-13 09:56:48,096 [P19336/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 5ms)
+ 2016-07-13 09:56:48,496 [P19336/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-07-13 09:56:48,648 [P19336/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-07-13 09:56:48,672 [P19336/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-07-13 09:56:48,701 [P19336/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-07-13 09:56:48,709 [P19336/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-07-13 09:56:48,764 [P19336/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-07-13 09:56:48,770 [P19336/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1088ms)
+ 2016-07-13 09:56:49,114 [P19336/D2/T8] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:5555/umbraco (UmbracoModule request)
+ 2016-07-13 09:56:49,232 [P19336/D2/T8] INFO  umbraco.content - Load Xml from file...
+ 2016-07-13 09:56:49,237 [P19336/D2/T8] INFO  umbraco.content - Loaded Xml from file.
+ 2016-07-13 09:56:49,395 [P19336/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-07-13 09:56:49,403 [P19336/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 7ms)
+ 2016-07-13 09:56:49,881 [P19336/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-07-13 09:56:49,894 [P19336/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 12ms)
+ 2016-07-13 09:56:51,180 [P19336/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-07-13 09:56:51,180 [P19336/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
+ 2016-07-13 09:56:51,196 [P19336/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2016-07-13 09:56:51,204 [P19336/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 7ms)
+ 2016-07-13 09:56:55,269 [P19336/D2/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-07-13 09:56:55,282 [P19336/D2/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 13ms)
+ 2016-07-13 09:56:59,578 [P19336/D2/T9] INFO  umbraco.content - Save Xml to file...
+ 2016-07-13 09:56:59,583 [P19336/D2/T14] INFO  umbraco.content - Saved Xml to file.
+ 2016-07-13 09:57:29,715 [P19336/D2/T15] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-07-13 09:57:41,910 [P19336/D2/T15] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username admin from IP address ::1
+ 2016-07-13 09:57:42,047 [P19336/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-07-13 09:57:42,054 [P19336/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 7ms)
+ 2016-07-13 09:57:42,104 [P19336/D2/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-07-13 09:57:42,119 [P19336/D2/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 15ms)
+ 2016-07-13 09:57:42,119 [P19336/D2/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-07-13 09:57:42,137 [P19336/D2/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 17ms)
+ 2016-07-13 09:57:42,149 [P19336/D2/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-07-13 09:57:42,149 [P19336/D2/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-07-13 09:57:42,151 [P19336/D2/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-07-13 09:57:42,168 [P19336/D2/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 16ms)
+ 2016-07-13 09:57:52,627 [P19336/D2/T8] ERROR dashboardUtilities.FeedProxy - Exception occurred
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+ 2016-07-13 09:57:54,290 [P19336/D2/T13] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-07-12 09:57:54
+ 2016-07-13 10:15:14,163 [P19336/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2016-07-13 10:15:14,164 [P19336/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2016-07-13 10:15:14,164 [P19336/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2016-07-13 10:15:14,164 [P19336/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2016-07-13 10:15:14,164 [P19336/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2016-07-13 10:15:14,164 [P19336/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2016-07-13 10:15:14,165 [P19336/D2/T48] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2016-07-13 10:15:14,165 [P19336/D2/T27] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2016-07-13 10:15:14,165 [P19336/D2/T59] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2016-07-13 10:15:14,173 [P19336/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2016-07-13 10:15:14,174 [P19336/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2016-07-13 10:15:14,174 [P19336/D2/T52] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2016-07-13 10:15:18,116 [P19336/D3/T23] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.0 application starting on ESWD658
+ 2016-07-13 10:15:18,135 [P19336/D3/T23] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-07-13 10:15:18,142 [P19336/D3/T23] INFO  Umbraco.Core.PluginManager - Hash determined (took 6ms)
+ 2016-07-13 10:15:18,215 [P19336/D3/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-07-13 10:15:18,390 [P19336/D3/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 175ms)
+ 2016-07-13 10:15:18,400 [P19336/D3/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-07-13 10:15:18,408 [P19336/D3/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 8ms)
+ 2016-07-13 10:15:18,409 [P19336/D3/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-07-13 10:15:18,416 [P19336/D3/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 7ms)
+ 2016-07-13 10:15:18,427 [P19336/D3/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-07-13 10:15:18,439 [P19336/D3/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 10ms)
+ 2016-07-13 10:15:18,439 [P19336/D3/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-07-13 10:15:18,446 [P19336/D3/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 7ms)
+ 2016-07-13 10:15:18,466 [P19336/D3/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-07-13 10:15:18,473 [P19336/D3/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 7ms)
+ 2016-07-13 10:15:18,474 [P19336/D3/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-07-13 10:15:18,479 [P19336/D3/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 5ms)
+ 2016-07-13 10:15:18,825 [P19336/D3/T23] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-07-13 10:15:18,924 [P19336/D3/T23] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-07-13 10:15:18,926 [P19336/D3/T23] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-07-13 10:15:18,934 [P19336/D3/T23] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-07-13 10:15:18,943 [P19336/D3/T23] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-07-13 10:15:18,977 [P19336/D3/T23] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-07-13 10:15:18,983 [P19336/D3/T23] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 907ms)
+ 2016-07-13 10:15:19,250 [P19336/D3/T10] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:5555/umbraco (UmbracoModule request)
+ 2016-07-13 10:15:19,334 [P19336/D3/T10] INFO  umbraco.content - Load Xml from file...
+ 2016-07-13 10:15:19,335 [P19336/D3/T10] INFO  umbraco.content - Loaded Xml from file.
+ 2016-07-13 10:15:19,409 [P19336/D3/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-07-13 10:15:19,416 [P19336/D3/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 7ms)
+ 2016-07-13 10:15:19,715 [P19336/D3/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-07-13 10:15:19,727 [P19336/D3/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 11ms)
+ 2016-07-13 10:15:20,917 [P19336/D3/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-07-13 10:15:20,917 [P19336/D3/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
+ 2016-07-13 10:15:20,934 [P19336/D3/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2016-07-13 10:15:20,941 [P19336/D3/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 7ms)
+ 2016-07-13 10:15:23,932 [P19336/D3/T14] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-07-13 10:15:44,260 [P19336/D2/T14] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
 
 _shutDownMessage=Change Notification for critical directories.
 bin dir change or directory rename
@@ -129,349 +140,332 @@ _shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needF
    at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
    at System.Threading.ThreadPoolWorkQueue.Dispatch()
    at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
- 2016-07-12 15:31:41,007 [P21576/D3/T53] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-07-11 15:31:40
- 2016-07-12 15:32:38,489 [P21576/D3/T59] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
- 2016-07-12 15:32:38,489 [P21576/D3/T59] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
- 2016-07-12 15:32:38,489 [P21576/D3/T53] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
- 2016-07-12 15:32:38,530 [P21576/D3/T59] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
- 2016-07-12 15:32:38,530 [P21576/D3/T59] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
- 2016-07-12 15:32:38,530 [P21576/D3/T59] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
- 2016-07-12 15:32:38,530 [P21576/D3/T59] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
- 2016-07-12 15:32:38,530 [P21576/D3/T59] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
- 2016-07-12 15:32:38,530 [P21576/D3/T59] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
- 2016-07-12 15:32:38,530 [P21576/D3/T55] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
- 2016-07-12 15:32:38,530 [P21576/D3/T46] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
- 2016-07-12 15:32:38,530 [P21576/D3/T50] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
- 2016-07-12 15:32:45,775 [P9840/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.0 application starting on ESWD658
- 2016-07-12 15:32:45,799 [P9840/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
- 2016-07-12 15:32:45,806 [P9840/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 6ms)
- 2016-07-12 15:32:45,892 [P9840/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
- 2016-07-12 15:32:46,146 [P9840/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 254ms)
- 2016-07-12 15:32:46,156 [P9840/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
- 2016-07-12 15:32:46,161 [P9840/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 5ms)
- 2016-07-12 15:32:46,162 [P9840/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
- 2016-07-12 15:32:46,168 [P9840/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 6ms)
- 2016-07-12 15:32:46,178 [P9840/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
- 2016-07-12 15:32:46,185 [P9840/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 7ms)
- 2016-07-12 15:32:46,186 [P9840/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
- 2016-07-12 15:32:46,193 [P9840/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 7ms)
- 2016-07-12 15:32:46,224 [P9840/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
- 2016-07-12 15:32:46,231 [P9840/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 6ms)
- 2016-07-12 15:32:46,231 [P9840/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
- 2016-07-12 15:32:46,238 [P9840/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 6ms)
- 2016-07-12 15:32:46,694 [P9840/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
- 2016-07-12 15:32:46,883 [P9840/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
- 2016-07-12 15:32:46,909 [P9840/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
- 2016-07-12 15:32:46,942 [P9840/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
- 2016-07-12 15:32:46,950 [P9840/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
- 2016-07-12 15:32:47,009 [P9840/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
- 2016-07-12 15:32:47,014 [P9840/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1298ms)
- 2016-07-12 15:32:47,491 [P9840/D2/T7] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:5555/umbraco (UmbracoModule request)
- 2016-07-12 15:32:47,646 [P9840/D2/T7] INFO  umbraco.content - Load Xml from file...
- 2016-07-12 15:32:47,647 [P9840/D2/T7] INFO  umbraco.content - Loaded Xml from file.
- 2016-07-12 15:32:47,805 [P9840/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
- 2016-07-12 15:32:47,815 [P9840/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 9ms)
- 2016-07-12 15:32:49,936 [P9840/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
- 2016-07-12 15:32:49,951 [P9840/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 14ms)
- 2016-07-12 15:32:51,391 [P9840/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
- 2016-07-12 15:32:51,391 [P9840/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
- 2016-07-12 15:32:51,413 [P9840/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
- 2016-07-12 15:32:51,423 [P9840/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 10ms)
- 2016-07-12 15:33:00,195 [P9840/D2/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
- 2016-07-12 15:33:59,500 [P9840/D2/T14] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-07-11 15:33:59
- 2016-07-12 15:43:43,571 [P22948/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.0 application starting on ESWD658
- 2016-07-12 15:43:43,591 [P22948/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
- 2016-07-12 15:43:43,598 [P22948/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 5ms)
- 2016-07-12 15:43:43,678 [P22948/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
- 2016-07-12 15:43:43,902 [P22948/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 223ms)
- 2016-07-12 15:43:43,912 [P22948/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
- 2016-07-12 15:43:43,918 [P22948/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 6ms)
- 2016-07-12 15:43:43,918 [P22948/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
- 2016-07-12 15:43:43,926 [P22948/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 7ms)
- 2016-07-12 15:43:43,939 [P22948/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
- 2016-07-12 15:43:43,950 [P22948/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 10ms)
- 2016-07-12 15:43:43,950 [P22948/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
- 2016-07-12 15:43:43,957 [P22948/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 6ms)
- 2016-07-12 15:43:43,986 [P22948/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
- 2016-07-12 15:43:43,994 [P22948/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 8ms)
- 2016-07-12 15:43:43,995 [P22948/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
- 2016-07-12 15:43:44,003 [P22948/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 7ms)
- 2016-07-12 15:43:44,456 [P22948/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
- 2016-07-12 15:43:44,626 [P22948/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
- 2016-07-12 15:43:44,652 [P22948/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
- 2016-07-12 15:43:44,681 [P22948/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
- 2016-07-12 15:43:44,690 [P22948/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
- 2016-07-12 15:43:44,746 [P22948/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
- 2016-07-12 15:43:44,751 [P22948/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1237ms)
- 2016-07-12 15:43:45,206 [P22948/D2/T6] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:5555/umbraco (UmbracoModule request)
- 2016-07-12 15:43:45,362 [P22948/D2/T6] INFO  umbraco.content - Load Xml from file...
- 2016-07-12 15:43:45,363 [P22948/D2/T6] INFO  umbraco.content - Loaded Xml from file.
- 2016-07-12 15:43:45,529 [P22948/D2/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
- 2016-07-12 15:43:45,539 [P22948/D2/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 9ms)
- 2016-07-12 15:43:47,683 [P22948/D2/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
- 2016-07-12 15:43:47,701 [P22948/D2/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 18ms)
- 2016-07-12 15:43:49,156 [P22948/D2/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
- 2016-07-12 15:43:49,156 [P22948/D2/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
- 2016-07-12 15:43:49,179 [P22948/D2/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
- 2016-07-12 15:43:49,186 [P22948/D2/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 7ms)
- 2016-07-12 15:43:58,640 [P22948/D2/T11] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
- 2016-07-12 15:44:42,798 [P22948/D2/T11] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'sefsfesefseffse' with Id '1118' has been published.
- 2016-07-12 15:44:42,918 [P22948/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
- 2016-07-12 15:44:42,929 [P22948/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 11ms)
- 2016-07-12 15:44:42,980 [P22948/D2/T11] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:16:23,368 [P19336/D3/T52] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-07-12 10:16:23
+ 2016-07-13 10:21:01,527 [P19336/D3/T28] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-07-13 10:21:29,637 [P19336/D3/T54] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username me@someaddress.com from IP address ::1
+ 2016-07-13 10:21:31,174 [P19336/D3/T43] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-07-13 10:21:37,146 [P19336/D3/T17] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'dbstrbh' with Id '1112' has been published.
+ 2016-07-13 10:21:37,191 [P19336/D3/T17] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-07-13 10:21:37,201 [P19336/D3/T17] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 10ms)
+ 2016-07-13 10:21:37,219 [P19336/D3/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:43,005 [P22948/D2/T11] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:21:37,222 [P19336/D3/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:43,240 [P22948/D2/T11] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:21:37,282 [P19336/D3/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:43,264 [P22948/D2/T11] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:21:37,282 [P19336/D3/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:43,287 [P22948/D2/T6] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'sefsfesefseffse' with Id '1118' has been published.
- 2016-07-12 15:44:43,339 [P22948/D2/T6] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:21:41,296 [P19336/D3/T16] INFO  umbraco.content - Save Xml to file...
+ 2016-07-13 10:21:41,310 [P19336/D3/T33] INFO  umbraco.content - Saved Xml to file.
+ 2016-07-13 10:21:48,568 [P19336/D3/T17] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'dbstrbh' with Id '1112' has been published.
+ 2016-07-13 10:21:48,588 [P19336/D3/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:43,362 [P22948/D2/T6] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:21:48,588 [P19336/D3/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:43,414 [P22948/D2/T6] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:21:48,597 [P19336/D3/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:43,436 [P22948/D2/T6] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:21:48,597 [P19336/D3/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:43,464 [P22948/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'sefsfesefseffse' with Id '1118' has been published.
- 2016-07-12 15:44:44,199 [P22948/D2/T8] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:21:49,132 [P19336/D3/T51] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'dbstrbh' with Id '1112' has been published.
+ 2016-07-13 10:21:49,145 [P19336/D3/T51] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:44,220 [P22948/D2/T8] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:21:49,145 [P19336/D3/T51] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:44,251 [P22948/D2/T8] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:21:49,152 [P19336/D3/T51] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:44,273 [P22948/D2/T8] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:21:49,153 [P19336/D3/T51] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:44,303 [P22948/D2/T6] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'sefsfesefseffse' with Id '1118' has been published.
- 2016-07-12 15:44:44,353 [P22948/D2/T6] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:21:49,345 [P19336/D3/T22] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'dbstrbh' with Id '1112' has been published.
+ 2016-07-13 10:21:49,358 [P19336/D3/T22] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:44,375 [P22948/D2/T6] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:21:49,358 [P19336/D3/T22] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:45,274 [P22948/D2/T6] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:21:49,369 [P19336/D3/T22] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:45,296 [P22948/D2/T6] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:21:49,369 [P19336/D3/T22] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:45,317 [P22948/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'sefsfesefseffse' with Id '1118' has been published.
- 2016-07-12 15:44:45,388 [P22948/D2/T8] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:21:50,244 [P19336/D3/T22] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'blah blah blah' with Id '1108' has been published.
+ 2016-07-13 10:21:50,257 [P19336/D3/T22] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:45,414 [P22948/D2/T8] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:21:50,257 [P19336/D3/T22] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:46,840 [P22948/D2/T8] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:21:50,266 [P19336/D3/T22] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:46,867 [P22948/D2/T8] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:21:50,266 [P19336/D3/T22] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:46,917 [P22948/D2/T6] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'sefsfesefseffse' with Id '1118' has been published.
- 2016-07-12 15:44:47,261 [P22948/D2/T6] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:21:50,441 [P19336/D3/T17] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'blah blah blah' with Id '1108' has been published.
+ 2016-07-13 10:21:50,460 [P19336/D3/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:47,298 [P22948/D2/T6] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:21:50,460 [P19336/D3/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:47,330 [P22948/D2/T6] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:21:50,468 [P19336/D3/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:47,364 [P22948/D2/T6] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:21:50,469 [P19336/D3/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:47,791 [P22948/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'sefsfesefseffse' with Id '1118' has been published.
- 2016-07-12 15:44:48,559 [P22948/D2/T8] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:21:52,673 [P19336/D3/T22] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'sefsfesefseffse' with Id '1118' has been published.
+ 2016-07-13 10:21:52,687 [P19336/D3/T22] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:48,595 [P22948/D2/T8] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:21:52,687 [P19336/D3/T22] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:48,888 [P22948/D2/T8] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:21:52,695 [P19336/D3/T22] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:48,932 [P22948/D2/T8] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:21:52,696 [P19336/D3/T22] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:49,191 [P22948/D2/T15] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'sefsfesefseffse' with Id '1118' has been published.
- 2016-07-12 15:44:49,779 [P22948/D2/T15] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:21:53,943 [P19336/D3/T17] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'sefsfesefseffse' with Id '1118' has been published.
+ 2016-07-13 10:21:53,958 [P19336/D3/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:49,801 [P22948/D2/T15] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:21:53,958 [P19336/D3/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:50,146 [P22948/D2/T15] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:21:53,968 [P19336/D3/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:50,221 [P22948/D2/T15] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:21:53,968 [P19336/D3/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:50,549 [P22948/D2/T6] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'sefsfesefseffse' with Id '1118' has been published.
- 2016-07-12 15:44:51,269 [P22948/D2/T6] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:21:57,982 [P19336/D3/T17] INFO  umbraco.content - Save Xml to file...
+ 2016-07-13 10:21:57,992 [P19336/D3/T64] INFO  umbraco.content - Saved Xml to file.
+ 2016-07-13 10:22:22,405 [P19336/D3/T9] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'sefsfesefseffse' with Id '1118' has been published.
+ 2016-07-13 10:22:22,425 [P19336/D3/T9] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:51,320 [P22948/D2/T6] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:22:22,425 [P19336/D3/T9] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:51,559 [P22948/D2/T6] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:22:22,434 [P19336/D3/T9] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:51,590 [P22948/D2/T6] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:22:22,435 [P19336/D3/T9] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:52,046 [P22948/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'sefsfesefseffse' with Id '1118' has been published.
- 2016-07-12 15:44:52,708 [P22948/D2/T8] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:22:22,882 [P19336/D3/T66] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'sefsfesefseffse' with Id '1118' has been published.
+ 2016-07-13 10:22:22,895 [P19336/D3/T66] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:52,746 [P22948/D2/T8] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:22:22,895 [P19336/D3/T66] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:53,003 [P22948/D2/T8] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:22:22,904 [P19336/D3/T66] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:53,035 [P22948/D2/T8] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:22:22,904 [P19336/D3/T66] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:53,697 [P22948/D2/T6] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'sefsfesefseffse' with Id '1118' has been published.
- 2016-07-12 15:44:54,139 [P22948/D2/T6] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:22:23,090 [P19336/D3/T47] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'sefsfesefseffse' with Id '1118' has been published.
+ 2016-07-13 10:22:23,103 [P19336/D3/T47] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:54,183 [P22948/D2/T6] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:22:23,103 [P19336/D3/T47] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:54,354 [P22948/D2/T6] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:22:23,111 [P19336/D3/T47] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:54,376 [P22948/D2/T6] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:22:23,112 [P19336/D3/T47] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:55,408 [P22948/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'sefsfesefseffse' with Id '1118' has been published.
- 2016-07-12 15:44:55,782 [P22948/D2/T8] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:22:23,322 [P19336/D3/T65] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'sefsfesefseffse' with Id '1118' has been published.
+ 2016-07-13 10:22:23,335 [P19336/D3/T65] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:55,805 [P22948/D2/T8] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:22:23,335 [P19336/D3/T65] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:55,920 [P22948/D2/T8] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:22:23,345 [P19336/D3/T65] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:55,986 [P22948/D2/T8] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:22:23,346 [P19336/D3/T65] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:56,824 [P22948/D2/T6] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'sefsfesefseffse' with Id '1118' has been published.
- 2016-07-12 15:44:57,398 [P22948/D2/T6] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:22:24,082 [P19336/D3/T31] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'sefsfesefseffse' with Id '1118' has been published.
+ 2016-07-13 10:22:24,094 [P19336/D3/T31] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:57,456 [P22948/D2/T6] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:22:24,094 [P19336/D3/T31] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:57,631 [P22948/D2/T6] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:22:24,103 [P19336/D3/T31] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:57,666 [P22948/D2/T6] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:22:24,103 [P19336/D3/T31] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:57,956 [P22948/D2/T12] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-07-11 15:44:57
- 2016-07-12 15:44:58,429 [P22948/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'sefsfesefseffse' with Id '1118' has been published.
- 2016-07-12 15:44:59,408 [P22948/D2/T8] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:22:28,111 [P19336/D3/T36] INFO  umbraco.content - Save Xml to file...
+ 2016-07-13 10:22:28,129 [P19336/D3/T61] INFO  umbraco.content - Saved Xml to file.
+ 2016-07-13 10:22:34,770 [P16072/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.0 application starting on ESWD658
+ 2016-07-13 10:22:34,793 [P16072/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-07-13 10:22:34,799 [P16072/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 5ms)
+ 2016-07-13 10:22:34,878 [P16072/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-07-13 10:22:34,886 [P16072/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 8ms)
+ 2016-07-13 10:22:34,904 [P16072/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-07-13 10:22:34,904 [P16072/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2016-07-13 10:22:34,905 [P16072/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-07-13 10:22:34,906 [P16072/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 0ms)
+ 2016-07-13 10:22:34,915 [P16072/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-07-13 10:22:34,916 [P16072/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 0ms)
+ 2016-07-13 10:22:34,917 [P16072/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-07-13 10:22:34,919 [P16072/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 2ms)
+ 2016-07-13 10:22:34,954 [P16072/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-07-13 10:22:34,954 [P16072/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-07-13 10:22:34,955 [P16072/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-07-13 10:22:34,955 [P16072/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-07-13 10:22:45,545 [P14144/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.0 application starting on ESWD658
+ 2016-07-13 10:22:45,567 [P14144/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-07-13 10:22:45,572 [P14144/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 5ms)
+ 2016-07-13 10:22:45,671 [P14144/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-07-13 10:22:45,683 [P14144/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 11ms)
+ 2016-07-13 10:22:45,701 [P14144/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-07-13 10:22:45,701 [P14144/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2016-07-13 10:22:45,702 [P14144/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-07-13 10:22:45,703 [P14144/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2016-07-13 10:22:45,716 [P14144/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-07-13 10:22:45,718 [P14144/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+ 2016-07-13 10:22:45,718 [P14144/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-07-13 10:22:45,720 [P14144/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 2ms)
+ 2016-07-13 10:22:45,756 [P14144/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-07-13 10:22:45,757 [P14144/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-07-13 10:22:45,757 [P14144/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-07-13 10:22:45,758 [P14144/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-07-13 10:22:46,224 [P14144/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-07-13 10:22:46,417 [P14144/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-07-13 10:22:46,444 [P14144/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-07-13 10:22:46,476 [P14144/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-07-13 10:22:46,488 [P14144/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-07-13 10:22:46,551 [P14144/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-07-13 10:22:46,560 [P14144/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1075ms)
+ 2016-07-13 10:22:47,264 [P14144/D2/T7] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:5555/umbraco (UmbracoModule request)
+ 2016-07-13 10:22:47,434 [P14144/D2/T7] INFO  umbraco.content - Load Xml from file...
+ 2016-07-13 10:22:47,436 [P14144/D2/T7] INFO  umbraco.content - Loaded Xml from file.
+ 2016-07-13 10:22:47,602 [P14144/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-07-13 10:22:47,603 [P14144/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 0ms)
+ 2016-07-13 10:22:49,736 [P14144/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-07-13 10:22:49,736 [P14144/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
+ 2016-07-13 10:22:51,259 [P14144/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-07-13 10:22:51,259 [P14144/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
+ 2016-07-13 10:22:51,276 [P14144/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2016-07-13 10:22:51,277 [P14144/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 0ms)
+ 2016-07-13 10:22:58,115 [P14144/D2/T12] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-07-13 10:22:58,116 [P14144/D2/T12] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 0ms)
+ 2016-07-13 10:22:58,543 [P14144/D2/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-07-13 10:23:02,508 [P14144/D2/T8] INFO  umbraco.content - Save Xml to file...
+ 2016-07-13 10:23:02,527 [P14144/D2/T7] INFO  umbraco.content - Saved Xml to file.
+ 2016-07-13 10:24:06,239 [P14144/D2/T13] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-07-12 10:24:06
+ 2016-07-13 10:24:12,729 [P14144/D2/T23] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'sefsfesefseffse' with Id '1118' has been published.
+ 2016-07-13 10:24:12,823 [P14144/D2/T23] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:59,538 [P22948/D2/T8] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:24:12,849 [P14144/D2/T23] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:59,659 [P22948/D2/T8] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:24:12,949 [P14144/D2/T23] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:44:59,704 [P22948/D2/T8] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:24:12,972 [P14144/D2/T23] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:45:00,244 [P22948/D2/T15] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'sefsfesefseffse' with Id '1118' has been published.
- 2016-07-12 15:45:00,573 [P22948/D2/T15] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:24:16,926 [P14144/D2/T10] INFO  umbraco.content - Save Xml to file...
+ 2016-07-13 10:24:16,930 [P14144/D2/T12] INFO  umbraco.content - Saved Xml to file.
+ 2016-07-13 10:24:23,829 [P14144/D2/T10] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'sefsfesefseffse' with Id '1118' has been published.
+ 2016-07-13 10:24:23,873 [P14144/D2/T10] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:45:00,620 [P22948/D2/T15] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:24:23,900 [P14144/D2/T10] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:45:00,798 [P22948/D2/T15] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:24:23,940 [P14144/D2/T10] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:45:00,855 [P22948/D2/T15] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+ 2016-07-13 10:24:23,963 [P14144/D2/T10] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
 System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
    at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
    at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
- 2016-07-12 15:45:04,763 [P22948/D2/T14] INFO  umbraco.content - Save Xml to file...
- 2016-07-12 15:45:04,798 [P22948/D2/T8] INFO  umbraco.content - Saved Xml to file.
+ 2016-07-13 10:24:27,921 [P14144/D2/T10] INFO  umbraco.content - Save Xml to file...
+ 2016-07-13 10:24:27,927 [P14144/D2/T24] INFO  umbraco.content - Saved Xml to file.

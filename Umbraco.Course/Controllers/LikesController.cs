@@ -14,16 +14,23 @@ namespace Umbraco.Course.Controllers
         [System.Web.Http.HttpGet]
         public int LikeStatus(int id)
         {
+            var memberService = Services.MemberService;
             var contentService = Services.ContentService;
+            var relationService = Services.RelationService;
+
+            var member = memberService.GetById(Members.GetCurrentMemberId());
+
             var post = contentService.GetById(id);
 
-            var numberOfLikes = post.GetValue<int>("likes");
-            numberOfLikes++;
+            if (!relationService.AreRelated(post, member, "likes"))
+                relationService.Relate(post, member, "likes");
 
-            post.SetValue("likes", numberOfLikes);
+            var likes = relationService.GetByParent(post, "likes").Count();
+
+            post.SetValue("likes", likes);
+
             contentService.PublishWithStatus(post);
-
-            return numberOfLikes;
+            return likes;
         }
     }
 }
