@@ -1,4 +1,4 @@
-﻿angular.module("umbraco").controller("My.CustomEditorController", function($scope, notificationservice) {
+﻿angular.module("umbraco").controller("My.CustomEditorController", function($scope, notificationsService) {
     $scope.limitChars = function() {
         var limit = parseInt($scope.model.config.limit);
         if ($scope.model.value.length > limit) {
