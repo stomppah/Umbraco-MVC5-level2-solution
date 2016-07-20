@@ -1,3 +1,16 @@
 ﻿{
-    "$schema": "/App_Plugins/manifestSchema.json"
+  "$schema": "/App_Plugins/manifestSchema.json",
+  "propertyEditors": [
+    {
+      "name": "Likes Manager",
+      "alias": "level2.likesmanager",
+      "editor": {
+        "view": "~/App_Plugins/LikesManager/LikesManager.html"
+      }
+    }
+  ],
+  "javascript": [
+    "~/App_Plugins/LikesManager/likesmanager.controller.js",
+    "~/App_Plugins/LikesManager/likes.service.js"
+  ]
 }
