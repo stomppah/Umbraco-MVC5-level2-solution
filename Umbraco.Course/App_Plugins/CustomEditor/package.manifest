@@ -1,3 +1,24 @@
 ﻿{
-    "$schema": "/App_Plugins/manifestSchema.json"
+  "$schema": "/App_Plugins/manifestSchema.json",
+  "javascript": [
+    "~/App_Plugins/CustomEditor/customeditor.controller.js"
+  ],
+  "propertyEditors": [
+    {
+      "alias": "My.CustomEditor",
+      "name": "Custom Editor",
+      "editor": {
+        "view": "~/App_Plugins/CustomEditor/customeditor.html"
+      },
+      "prevalues": {
+        "fields": [
+          {
+            "description": "How many characters to allow",
+            "key": "limit",
+            "label": "number of chars",
+            "view": "number"
+          }]
+      }
+    }
+  ]
 }

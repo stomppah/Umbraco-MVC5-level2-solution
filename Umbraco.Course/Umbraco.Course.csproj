@@ -362,6 +362,8 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Content Include="App_Plugins\CustomEditor\customeditor.controller.js" />
+    <Content Include="App_Plugins\CustomEditor\customeditor.html" />
     <Content Include="App_Plugins\Dashboards\LatestPosts.controller.js" />
     <Content Include="App_Plugins\Dashboards\LatestPosts.css" />
     <Content Include="App_Plugins\Dashboards\LatestPosts.service.js" />
