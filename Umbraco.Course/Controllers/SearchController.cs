@@ -10,8 +10,15 @@ namespace Umbraco.Course.Controllers
         [ChildActionOnly]
         public ActionResult Search(string query)
         {
-       
-            return null;
+            var model = new SearchModel()
+            {
+                Query = query
+            };
+            if (!string.IsNullOrEmpty(query))
+            {
+                model.SearchResults = Umbraco.TypedSearch(query);
+            }
+            return PartialView("~/Views/Partials/SearchPartial.cshtml" ,model);
         }
     }
 }

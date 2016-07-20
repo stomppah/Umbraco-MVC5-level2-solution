@@ -6,5 +6,6 @@
     @Html.Raw((Model.Content.GetPropertyValue<string>("BodyText")))
 </div>
 <div>
-	<!-- Call Search child action here -->
+    <!-- Call Search child action here -->
+    @Html.Action("Search", "Search")
 </div>
