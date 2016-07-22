@@ -1,9 +1,10 @@
 ﻿{
     "$schema": "/App_Plugins/manifestSchema.json",
-	"javascript":[
-		
-	],
-	"css" : [
-		
-	]
+  "javascript": [
+    "~/App_Plugins/Dashboards/LatestPosts.controller.js",
+    "~/App_Plugins/Dashboards/LatestPosts.service.js"
+  ],
+  "css": [
+    "~/App_Plugins/Dashboards/LatestPosts.css"
+  ]
 }
